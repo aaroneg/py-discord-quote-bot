@@ -20,5 +20,10 @@ pipenv shell
 python ./save_key.py
 python ./init.py
 ```
+You'll want to create quotes.txt, with one quote per line.
 
 You can run it in a `screen` session, or go to the effort of making a systemd unit for it.
+
+## Bot Commands
+
+There's only one command - `!quote`. If you put that anywhere the bot can read the command and send the message, you should be good to go.
